@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #e4eeee;
+}
+
+#menu {
+    background-color: #111;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+#menu ul {
+    display: flex;
+    margin: 0 10% 0 0;
+    height: 100%;
+}
+
+#menu ul li {
+    display: flex;
+    align-items: center;
+}
+
+.language img {
+    filter: invert(100%);
+    width: 3vh;
+    cursor: pointer;
+}
+
+.anchors {
+    height: 100%;
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+}
+
+.anchors a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.downloader a {
+    white-space: nowrap;
+}
