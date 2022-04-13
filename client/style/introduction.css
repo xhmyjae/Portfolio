@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Tungsten-Bold";
+    src: url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff");
+}
+
+#introduction {
+    padding: 17vh 10vh;
+    display: flex;
+    font-family: "Tungsten-Bold";
+    justify-content: space-around;
+    color: #ece8e1;
+}
+
+.introduction-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.introduction-name > p {
+    font-size: 12vh;
+    margin: 0;
+}
+
+.introduction-name > p:nth-child(2) {
+    color: #ff4655;
+}
+
+.introduction-image {
+    display: flex;
+    justify-content: center;
+}
+
+.introduction-image img {
+    height: 80%;
+}
+
+.introduction-bio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    font-size: 2.5vh;
+}
+
+.introduction-bio > p {
+    margin: 0;
+    font-family: Gill Sans, sans-serif;
+}
+
+.introduction-bio-role {
+    font-family: "Tungsten-Bold";
+}
