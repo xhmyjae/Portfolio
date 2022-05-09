@@ -3,27 +3,44 @@
     src: url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff");
 }
 
+.tungsten-font {
+    font-family: "Tungsten-Bold"!important;
+}
+
+.mark-font {
+    font-family: "FF Mark W05",Arial,sans-serif!important;
+}
+
+.pt-sans-font {
+    font-family: 'PT Sans', sans-serif!important;
+}
+
 #introduction {
-    padding: 17vh 10vh;
+    padding: 0 10vh;
     display: flex;
-    font-family: "Tungsten-Bold";
     justify-content: space-around;
     color: #ece8e1;
+}
+
+#introduction > div:not(.vertical-left-line) {
+    margin-top: 17vh;
 }
 
 .introduction-name {
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
+    padding-top: 20vh;
 }
 
-.introduction-name > p {
-    font-size: 12vh;
+.introduction-name > span {
+    font-size: 7rem;
     margin: 0;
 }
 
-.introduction-name > p:nth-child(2) {
+.introduction-name > span:nth-child(2) {
     color: #ff4655;
+    position: relative;
+    top: -5%;
 }
 
 .introduction-image {
@@ -38,15 +55,22 @@
 .introduction-bio {
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
+    padding-top: 20vh;
     font-size: 2.5vh;
+    max-width: 25%;
 }
 
 .introduction-bio > p {
     margin: 0;
-    font-family: Gill Sans, sans-serif;
+    text-shadow: 0.1vw 0vw 0.25vw #181817, 0.15vw 0vw 0.25vw #272726, 0.1vw 0vw 0.1vw #272726;
+}
+
+.introduction-bio > p:not(.introduction-bio-role) {
+    font-size: 2vh;
+    padding-bottom: 1.5vh;
 }
 
 .introduction-bio-role {
-    font-family: "Tungsten-Bold";
+    font-size: 5vh;
+    padding: 0 0 1.5vh 0;
 }
