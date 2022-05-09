@@ -1,5 +1,22 @@
 @import url('./introduction.css');
+@import url('./cursus.css');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=PT+Sans:wght@700&display=swap');
+@font-face {
+    font-family: "Tungsten-Bold";
+    src: url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff");
+}
+
+.tungsten-font {
+    font-family: "Tungsten-Bold"!important;
+}
+
+.mark-font {
+    font-family: "FF Mark W05",Arial,sans-serif!important;
+}
+
+.pt-sans-font {
+    font-family: 'PT Sans', sans-serif!important;
+}
 
 body {
     margin: 0;
@@ -75,4 +92,11 @@ body {
 .vertical-left-line {
     border-left: solid #222222;
     border-width: thin;
+    z-index: 20;
+}
+
+/* TOPIC */
+
+.topic-title {
+
 }
