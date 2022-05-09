@@ -53,6 +53,7 @@ body {
 #menu ul li {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .language i {
@@ -64,6 +65,7 @@ body {
     margin: 0 3%;
     display: flex;
     align-items: center;
+    flex-direction: column;
     color: #FFF;
 }
 
@@ -82,11 +84,26 @@ body {
     background-color: rgba(255, 255, 255, 0.11);
 }
 
+.line-hover {
+    border-bottom: solid #ff4655;
+    border-width: thick;
+    width: 100%;
+    position: relative;
+    top: 15%;
+    border-radius: 1vh;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
 .downloader a {
     white-space: nowrap;
     background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);
     padding: 1vh 2vh;
     border-radius: 1.5vh;
+    color: #111;
 }
 
 .vertical-left-line {
