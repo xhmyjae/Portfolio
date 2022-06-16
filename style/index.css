@@ -108,26 +108,28 @@ body {
     color: #111;
 }
 
-.vertical-left-line {
-    border-left: solid #222222;
-    border-width: thin;
+.content {
+    border-left: solid thin #222222;
+    position: fixed;
+    left: 8vh;
+    width: 1px;
     z-index: 20;
+    height: 100%;
 }
 
 #cursus, #projects {
-    margin: 0;
+    padding: 0 8vh;
     background-color: #ece8e1;
 }
 
 #skills, #contact {
-    margin: 0;
+    padding: 0 8vh;
     background-color: #0F1823;
 }
 
 /* TOPIC */
 
 .topic-title {
-    margin-left: 8vw;
     font-size: 4rem;
 }
 
