@@ -19,6 +19,8 @@
     break-inside: avoid;
     padding: 0 15px;
     margin-bottom: 3rem;
+    position: relative;
+    z-index: 1;
 }
 
 .skill-image {
@@ -31,16 +33,16 @@
     font-size: 4vh;
     background-color: #fff;
     box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
-    color: #fcbc1d;
+    color: #ff4655;
 }
 
 .skill-image:before {
     content: '';
     position: absolute;
     border-top: solid thin #222222;
-    width: 100%;
+    width: 102%;
     transform: translateY(-50%);
-    z-index: 11;
+    z-index: -1;
 }
 
 .skill-title {
