@@ -1,5 +1,7 @@
-@import url('./introduction.css');
-@import url('./cursus.css');
+@import url('introduction.css');
+@import url('cursus.css');
+@import url('skills.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=PT+Sans:wght@700&display=swap');
 @font-face {
     font-family: "Tungsten-Bold";
@@ -24,7 +26,7 @@ body {
     font-family: "FF Mark W05",Arial,sans-serif;
     font-weight: 600;
     font-size: 93%;
-    background-image: url("../../backend/resources/night_city.gif");
+    background-image: url("../resources/night_city.gif");
     width: 100vw;
     height: 100vh;
     background-attachment: fixed !important;
@@ -110,6 +112,16 @@ body {
     border-left: solid #222222;
     border-width: thin;
     z-index: 20;
+}
+
+#cursus, #projects {
+    margin: 0;
+    background-color: #ece8e1;
+}
+
+#skills, #contact {
+    margin: 0;
+    background-color: #ff4655;
 }
 
 /* TOPIC */
