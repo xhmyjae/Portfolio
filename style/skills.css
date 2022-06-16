@@ -1,10 +1,11 @@
 #skills {
-    padding: 0 8vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .skills {
+    padding: 5vh 8vh;
     max-width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +32,15 @@
     background-color: #fff;
     box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
     color: #fcbc1d;
+}
+
+.skill-image:before {
+    content: '';
+    position: absolute;
+    border-top: solid thin #222222;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 11;
 }
 
 .skill-title {

@@ -127,5 +127,10 @@ body {
 /* TOPIC */
 
 .topic-title {
+    margin-left: 8vw;
+    font-size: 4rem;
+}
 
+.white {
+    color: #fff!important;
 }
