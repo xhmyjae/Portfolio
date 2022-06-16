@@ -1,25 +1,82 @@
 #cursus {
     position: relative;
     width: 100%;
-    top: -25vh;
 }
 
 .career-timeline {
     display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    padding-bottom: 6vh;
+}
+
+.career-image {
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.career-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: solid thick rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
 }
 
 .career-event {
+    display: flex;
+    justify-content: center;
+}
 
+.career-details {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    word-break: break-word;
+    margin: 0 4vh;
+}
+
+.career-empty {
+    width: 25%;
+    margin: 0 4vh;
+}
+
+.career-details{
+    text-align: right;
+}
+
+.career-event .career-details:last-child {
+    text-align: left;
+}
+
+span.career-title {
+    display: flex;
+    flex-direction: column;
+}
+
+a.career-name {
+    text-decoration: none;
+    color: #ff4655;
+}
+
+.career-name:hover {
+    text-decoration: underline;
+}
+
+.career-date, .career-title {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .career-date {
-
-}
-
-.career-title {
-
+    line-height: 1.2;
+    font-size: 1.25em;
 }
 
 .career-description {
-
+    line-height: 1.6;
+    margin-top: 10px;
+    font-weight: 500;
 }

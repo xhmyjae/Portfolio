@@ -108,13 +108,18 @@ body {
     color: #111;
 }
 
-.content {
+.left-line {
     border-left: solid thin #222222;
     position: fixed;
     left: 8vh;
     width: 1px;
     z-index: 20;
     height: 100%;
+}
+
+.content {
+    position: relative;
+    top: -25vh;
 }
 
 #cursus, #projects {
@@ -131,6 +136,7 @@ body {
 
 .topic-title {
     font-size: 4rem;
+    padding-top: 2vh;
 }
 
 .white {
