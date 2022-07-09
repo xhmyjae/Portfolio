@@ -24,6 +24,7 @@
     margin: 1px;
     cursor: pointer;
     transition: all .2s ease-in-out;
+    min-width: 360px;
 }
 
 .project-text {
@@ -58,7 +59,64 @@
     font-size: large;
 }
 
-#project-1 {
-    background: url("../resources/hisokalerat.png") no-repeat center;
-    background-size: cover;
+.modal-display {
+    display: block!important;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    background: #fff;
+    width: 90%;
+    height: fit-content;
+    z-index: 100;
+    margin: 5vw 0;
+}
+
+.close-modal {
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+    font-size: 4rem;
+    color: #111;
+}
+
+.fa-times {
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+.modal-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ff4655;
+}
+
+.modal-description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111;
+    line-height: 1.5;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.modal-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ff4655;
+    text-decoration: none;
 }
