@@ -67,9 +67,11 @@
     display: none;
     position: fixed;
     top: 0;
-    left: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
     background: #fff;
     width: 90%;
+    max-width: 1250px;
     height: fit-content;
     z-index: 100;
     margin: 5vw 0;
