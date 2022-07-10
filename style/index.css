@@ -39,7 +39,7 @@ body {
     background-color: #111;
     display: flex;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 9vh;
     justify-content: space-between;
     border-bottom: 2px solid rgba(51,51,51,.25);
@@ -146,4 +146,16 @@ body {
 
 .hidden {
     display: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+[aria-hidden="true"] { display: none; }
+[aria-hidden="false"] { display: block; }
+
+.fade {
+    opacity: 0.8;
+    /*transition: all .5s ease-in-out;*/
 }
