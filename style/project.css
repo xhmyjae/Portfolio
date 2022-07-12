@@ -105,12 +105,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5%;
+    margin: 5% 20%;
     padding-bottom: 10%;
 }
 
 .modal-title {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #ff4655;
 }
