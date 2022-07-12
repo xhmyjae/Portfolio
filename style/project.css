@@ -36,7 +36,7 @@
     align-items: center;
     transition: all .2s ease-in-out;
     background-color: #0F18231F;
-    text-shadow: 0.1vw 0vw 0.25vw #181817, 0.15vw 0vw 0.25vw #272726, 0.1vw 0vw 0.1vw #272726;
+    text-shadow: 0.1vw 0vw 0.25vw #181817a1, 0.15vw 0vw 0.25vw #27272691, 0.1vw 0vw 0.1vw #27272694;
 }
 
 .project:hover {
@@ -50,13 +50,15 @@
 .project-name {
     color: #ff4655;
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 1.7rem;
+    padding: 5%;
 }
 
 .project-description {
     color: #fff;
     font-weight: 700;
     font-size: large;
+    padding: 0 5%;
 }
 
 .modal-display {
