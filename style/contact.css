@@ -15,3 +15,57 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 6vh 8vh!important;
+    z-index: 21;
+    position: relative;
+}
+
+.footer-icons {
+    display: flex;
+    margin: 0 10%;
+}
+
+.icon {
+    padding: 1%;
+    border-radius: 50%;
+    background: #0F1823;
+    width: 3.5rem;
+    font-size: 2rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 13px;
+}
+
+.icon .fa-brands {
+    color: #fff;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    width: 305px;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    max-width: 305px;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
