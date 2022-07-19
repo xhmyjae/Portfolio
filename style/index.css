@@ -36,6 +36,16 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 #menu {
     background-color: #111;
     display: flex;
@@ -51,7 +61,10 @@ body {
     display: flex;
     margin: 0;
     height: 100%;
-    padding-right: 21vh;
+    padding-right: 5%;
+    width: 50%;
+    justify-content: space-between;
+    max-width: 630px;
 }
 
 #menu ul li {
@@ -66,7 +79,6 @@ body {
 
 .anchors {
     height: 100%;
-    margin: 0 3%;
     display: flex;
     align-items: center;
     flex-direction: column;
