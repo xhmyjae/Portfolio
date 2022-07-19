@@ -40,6 +40,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 13px;
+    text-decoration: none;
 }
 
 .icon .fa-brands {
