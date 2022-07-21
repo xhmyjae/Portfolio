@@ -6,7 +6,7 @@
 .career-timeline {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    /*max-width: 90%;*/
     padding-bottom: 6vh;
 }
 

@@ -1,18 +1,22 @@
 #introduction {
-    padding: 0 10vh;
+    /*padding: 0 10vh;*/
     display: flex;
     justify-content: space-around;
     color: #ece8e1;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
 }
 
 #introduction > div:not(.vertical-left-line) {
-    margin-top: 17vh;
+    margin-top: 25vh;
 }
 
 .introduction-name {
     display: flex;
     flex-direction: column;
-    padding-top: 20vh;
+    justify-content: center;
 }
 
 .introduction-name > span {
@@ -40,9 +44,10 @@
 .introduction-bio {
     display: flex;
     flex-direction: column;
-    padding-top: 11vh;
+    /*padding-top: 11vh;*/
     font-size: 2.5vh;
-    max-width: 25%;
+    /*max-width: 25%;*/
+    justify-content: center;
 }
 
 .introduction-bio > p {

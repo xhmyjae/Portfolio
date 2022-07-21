@@ -19,7 +19,7 @@
 footer {
     display: flex;
     justify-content: center;
-    padding: 6vh 8vh!important;
+    padding: 6vh 0!important;
     z-index: 21;
     position: relative;
 }

@@ -15,3 +15,14 @@ anchors.forEach(anchor => {
       anchorsLine.classList.toggle('show');
   });
 });
+
+const globe = document.querySelector('.fa-globe');
+const languagesDropDown = document.querySelector('.languages-dropdown');
+
+// globe.addEventListener('mouseover', e => {
+//     languagesDropDown.classList.remove('hidden');
+// });
+
+// globe.addEventListener('mouseout', e => {
+//     languagesDropDown.classList.add('hidden');
+// });
