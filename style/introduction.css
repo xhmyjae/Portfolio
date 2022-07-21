@@ -1,5 +1,5 @@
 #introduction {
-    /*padding: 0 10vh;*/
+    padding: 10% 0;
     display: flex;
     justify-content: space-around;
     color: #ece8e1;
@@ -9,14 +9,15 @@
     align-items: center;
 }
 
-#introduction > div:not(.vertical-left-line) {
-    margin-top: 25vh;
-}
+/*#introduction > div:not(.vertical-left-line) {*/
+/*    margin-top: 25vh;*/
+/*}*/
 
 .introduction-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 90vh;
 }
 
 .introduction-name > span {
