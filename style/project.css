@@ -18,13 +18,48 @@
 .project {
     max-width: 33%;
     height: 215px;
-    background: url(../resources/hisokalerat.png) no-repeat center;
     background-size: cover;
     width: 100%;
     margin: 1px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     min-width: 360px;
+}
+
+#project-1 {
+    background: url(../resources/hisokalerat.png) no-repeat center;
+}
+
+#project-2 {
+    background: url(../resources/calculator.png) no-repeat center;
+}
+
+#project-3 {
+    background: url(../resources/hisokalerat.png) no-repeat center;
+}
+
+#project-4 {
+    background: url(../resources/hisokalerat.png) no-repeat center;
+}
+
+#project-5 {
+    background: url(../resources/hisokalerat.png) no-repeat center;
+}
+
+#project-6 {
+    background: url(../resources/hisokalerat.png) no-repeat center;
+}
+
+#project-7 {
+    background: url(../resources/very-accurate-weather.png) no-repeat center;
+}
+
+#project-8 {
+    background: url(../resources/build-me-paimon.png) no-repeat center;
+}
+
+#project-9 {
+    background: url(../resources/valolo.png) no-repeat center;
 }
 
 .project-text {
@@ -35,7 +70,7 @@
     justify-content: center;
     align-items: center;
     transition: all .2s ease-in-out;
-    background-color: #0F18231F;
+    background-color: #0F182338;
     text-shadow: 0.1vw 0vw 0.25vw #181817a1, 0.15vw 0vw 0.25vw #27272691, 0.1vw 0vw 0.1vw #27272694;
 }
 
