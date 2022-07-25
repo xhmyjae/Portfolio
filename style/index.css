@@ -168,7 +168,7 @@ a.tungsten-font.menu-name {
     width: 100%;
 }
 
-#skills, #contact {
+#skills, #contact, .introduction-bio {
     /*padding-left: 8vh;*/
     background-color: #0F1823;
     width: 100%;
