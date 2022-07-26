@@ -210,6 +210,11 @@
     text-decoration: none;
 }
 
+.introduction-menu-icons {
+    max-width: 650px;
+    text-align: center;
+}
+
 .information-list {
     max-width: 710px;
 }
