@@ -164,7 +164,7 @@
     display: flex;
     justify-content: center;
     background: linear-gradient(135deg,#91ffff 0,#ecc1c1 35%,#ffbbe0 75%,#c49dff 100%) no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 65%;
     background-position: center bottom;
 }
 
@@ -194,6 +194,19 @@
     text-decoration: none;
 }
 
+.special-introduction-icon {
+    background: linear-gradient(to right,#1bb 0,#6af 100%);
+}
+
+.introduction-icon:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+i.fa-solid.fa-file {
+    margin-right: 5%;
+}
+
 .introduction-menu span {
     margin: 3% 0;
 }
@@ -213,7 +226,7 @@
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out, filter .1s ease-in-out;
     color: #0F1823;
     background-color: #e4eeee;
     margin: 0.5rem;
