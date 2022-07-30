@@ -159,6 +159,15 @@
     margin: 2rem 4rem 1rem 4rem;
 }
 
+.long-introduction-bio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg,#91ffff 0,#ecc1c1 35%,#ffbbe0 75%,#c49dff 100%) no-repeat;
+    background-size: 100% 50%;
+    background-position: center bottom;
+}
+
 .introduction-bio {
     display: flex;
     /* padding-top: 11vh; */
@@ -175,7 +184,8 @@
 }
 
 .linkdin-icon i, .github-icon i {
-    background-color: #ff4655 !important;
+    /*background-color: #ff4655 !important;*/
+    background-color: #2be !important;
     color: #fff !important;
     text-decoration: none;
 }

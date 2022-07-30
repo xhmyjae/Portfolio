@@ -127,7 +127,8 @@ a.tungsten-font.menu-name {
 }
 
 .line-hover {
-    border-bottom: solid #ff4655;
+    /*border-bottom: solid #ff4655;*/
+    border-bottom: solid #2be;
     border-width: thick;
     width: 100%;
     position: relative;
@@ -142,7 +143,8 @@ a.tungsten-font.menu-name {
 
 .downloader a {
     white-space: nowrap;
-    background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);
+    /*background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);*/
+    background: linear-gradient(to right,#1bb 0,#6af 100%);
     padding: 1vh 2vh;
     border-radius: 1.5vh;
     color: #111;

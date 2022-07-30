@@ -68,7 +68,8 @@ span.career-title {
 
 a.career-name {
     text-decoration: none;
-    color: #ff4655;
+    /*color: #ff4655;*/
+    color: #1bb;
 }
 
 .career-name:hover {
