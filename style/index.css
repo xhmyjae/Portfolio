@@ -9,6 +9,18 @@
     font-family: "Tungsten-Bold";
     src: url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("fonts/Tungsten Font/@font-face/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff");
 }
+@font-face {
+    font-family: Rajdhani-Regular;
+    src: url("fonts/Rajdhani-Regular.ttf")
+}
+@font-face {
+    font-family: Rajdhani-Bold;
+    src: url("fonts/Rajdhani-Bold.ttf")
+}
+@font-face {
+    font-family: Rajdhani-Light;
+    src: url("fonts/Rajdhani-Light.ttf")
+}
 
 .tungsten-font {
     font-family: "Tungsten-Bold"!important;
@@ -109,6 +121,8 @@ html {
     padding: 0 2vh;
     border-radius: 1.5vh;
     text-transform: uppercase;
+    font-family: Rajdhani-Light;
+    font-size: 135%;
 }
 
 .fa-globe {
