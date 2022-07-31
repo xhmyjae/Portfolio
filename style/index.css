@@ -54,6 +54,12 @@ html {
     scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 880px) {
+    html {
+        overflow-x: hidden;
+    }
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
