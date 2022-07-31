@@ -89,6 +89,12 @@ html {
     max-width: 630px;
 }
 
+@media only screen and (max-width: 1225px) {
+    #menu ul {
+        display: none;
+    }
+}
+
 #menu ul li {
     display: flex;
     align-items: center;
@@ -176,6 +182,12 @@ a.tungsten-font.menu-name {
     width: 1px;
     z-index: 20;
     height: 100%;
+}
+
+@media only screen and (max-width: 1225px) {
+    .left-line {
+        display: none;
+    }
 }
 
 .content {

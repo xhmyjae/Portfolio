@@ -15,6 +15,12 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 1225px) {
+    .projects {
+        padding: 5vh 0;
+    }
+}
+
 .project {
     max-width: 33%;
     height: 215px;
@@ -148,7 +154,7 @@
 .modal-title {
     font-size: 4rem;
     font-weight: 700;
-    color: #ff4655;
+    color: #1be;
 }
 
 .modal-description {
@@ -168,6 +174,6 @@
 .link {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ff4655;
+    color: #1bb;
     text-decoration: none;
 }

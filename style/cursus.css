@@ -25,6 +25,12 @@
     z-index: -1;
 }
 
+@media only screen and (max-width: 1225px) {
+    .career-image:not(.last):after {
+        display: none;
+    }
+}
+
 .career-image > img {
     width: 100%;
     height: 100%;
@@ -34,10 +40,23 @@
     background-color: #ece8e1;
 }
 
+@media only screen and (max-width: 1225px) {
+    .career-image > img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
 .career-event {
     display: flex;
     justify-content: center;
     z-index: 1;
+}
+
+@media only screen and (max-width: 1225px) {
+    .career-event {
+        margin-bottom: 10%;
+    }
 }
 
 .career-details {
@@ -46,6 +65,16 @@
     width: 25%;
     word-break: break-word;
     margin: 0 4vh;
+}
+
+@media only screen and (max-width: 1225px) {
+    .career-details {
+        width: 70%;
+    }
+
+    .career-details:empty {
+        display: none;
+    }
 }
 
 .career-empty {

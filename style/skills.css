@@ -55,6 +55,7 @@
 
 .skill-description {
     max-width: 22vw;
+    min-width: 200px;
     word-break: break-word;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);

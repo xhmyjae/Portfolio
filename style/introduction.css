@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90vh;
+    width: 100%;
 }
 
 .introduction-name > span {
@@ -29,6 +30,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 612px;
+    height: 494px;
 }
 
 .text-path{
@@ -183,6 +186,12 @@
     box-shadow: 0px 3px 3px 0px rgb(0 0 0 / 10%);
 }
 
+@media only screen and (max-width: 1225px) {
+    .introduction-bio {
+        
+    }
+}
+
 .linkdin-icon i, .github-icon i {
     /*background-color: #ff4655 !important;*/
     background-color: #2be !important;
@@ -266,6 +275,12 @@ i.fa-solid.fa-file {
 
 .introduction-information {
     display: flex;
+}
+
+@media only screen and (max-width: 1225px) {
+    .introduction-information {
+        display: block;
+    }
 }
 
 .introduction-menu {
