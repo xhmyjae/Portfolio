@@ -25,7 +25,7 @@
     z-index: -1;
 }
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 880px) {
     .career-image:not(.last):after {
         display: none;
     }
@@ -40,7 +40,7 @@
     background-color: #ece8e1;
 }
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 880px) {
     .career-image > img {
         width: 50%;
         height: 50%;
@@ -53,9 +53,9 @@
     z-index: 1;
 }
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 880px) {
     .career-event {
-        margin-bottom: 10%;
+        margin: 5% 0;
     }
 }
 
@@ -67,7 +67,7 @@
     margin: 0 4vh;
 }
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 880px) {
     .career-details {
         width: 70%;
     }
