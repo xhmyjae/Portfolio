@@ -9,6 +9,12 @@
     margin: 1% 0;
 }
 
+@media only screen and (max-width: 1225px) {
+    .contact-email {
+        text-align: center;
+    }
+}
+
 .contact-email a, .contact-phone a {
     text-decoration: none;
     color: #1bb;
@@ -34,6 +40,12 @@ footer {
 .footer-icons {
     display: flex;
     margin: 0 10%;
+}
+
+@media only screen and (max-width: 1225px) {
+    .footer-icons {
+        margin: 5% 10%;
+    }
 }
 
 .icon {
@@ -76,4 +88,10 @@ footer {
     color: rgba(0, 0, 0, 0.7);
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 1225px) {
+    .footer-menu a {
+        margin: 0 5%;
+    }
 }
