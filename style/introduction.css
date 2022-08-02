@@ -35,6 +35,15 @@
     height: 494px;
 }
 
+@media only screen and (max-width: 1225px) {
+    .svg-title {
+        width: 447px;
+        height: 344px;
+        left: 17%;
+        position: relative;
+    }
+}
+
 .text-path{
     display:block;
     fill:#fff;
