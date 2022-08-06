@@ -98,7 +98,7 @@ footer {
 .form-input {
     display: block;
     width: 100%;
-    padding: 0.675rem 0;
+    padding: 0.675rem 0.2rem;
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
@@ -117,6 +117,7 @@ footer {
 textarea.form-input {
     overflow: auto;
     resize: vertical;
+    height: 75%;
 }
 
 span.contact-form-name {
@@ -154,8 +155,8 @@ span.contact-form-name {
 }
 
 .contact-form form {
-    width: 55%;
-    max-width: 670px;
+    width: 90%;
+    max-width: 1000px;
 }
 
 @media only screen and (max-width: 1000px) {
