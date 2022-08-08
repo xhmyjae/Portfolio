@@ -147,6 +147,10 @@ span.contact-form-name {
     position: relative;
 }
 
+.information + .contact-form-name {
+    color: rgb(194, 194, 194) !important;
+}
+
 .contact-form {
     display: flex;
     justify-content: center;
