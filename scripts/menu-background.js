@@ -1,13 +1,16 @@
 var myNav = document.getElementById('menu');
+let menuName = document.querySelector(".menu-name");
 window.onscroll = function () {
     "use strict";
     if (document.body.scrollTop >= 400 || document.documentElement.scrollTop >= 400 ) {
         myNav.classList.add("scrolled");
         myNav.classList.remove("fixed");
+        menuName.classList.remove("invisible");
     }
     else {
         myNav.classList.add("fixed");
         myNav.classList.remove("scrolled");
+        menuName.classList.add("invisible");
     }
 };
 

@@ -229,6 +229,10 @@ a.tungsten-font.menu-name {
     display: none;
 }
 
+.invisible {
+    visibility: hidden;
+}
+
 .no-scroll {
     overflow: hidden;
 }
