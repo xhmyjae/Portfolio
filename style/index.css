@@ -241,50 +241,52 @@ a.tungsten-font.menu-name {
     /*transition: all .5s ease-in-out;*/
 }
 
-.reveal {
-    position: relative;
-    opacity: 0;
-}
-.reveal.active2 {
-    opacity: 1;
-}
-.active2.fade-bottom {
-    animation: fade-bottom 0.5s ease-in;
-}
-.active2.fade-left {
-    animation: fade-left 0.5s ease-in;
-}
-.active2.fade-right {
-    animation: fade-right 0.5s ease-in;
-}
+@media only screen and (min-width: 1225px) {
+    .reveal {
+        position: relative;
+        opacity: 0;
+    }
+    .reveal.active2 {
+        opacity: 1;
+    }
+    .active2.fade-bottom {
+        animation: fade-bottom 0.5s ease-in;
+    }
+    .active2.fade-left {
+        animation: fade-left 0.5s ease-in;
+    }
+    .active2.fade-right {
+        animation: fade-right 0.5s ease-in;
+    }
 
-@keyframes fade-bottom {
-    0% {
-        transform: translateY(50px);
-        opacity: 0;
+    @keyframes fade-bottom {
+        0% {
+            transform: translateY(50px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
     }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
+    @keyframes fade-left {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
-}
-@keyframes fade-left {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes fade-right {
-    0% {
-        transform: translateX(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
+    @keyframes fade-right {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
 }
