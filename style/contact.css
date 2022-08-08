@@ -1,5 +1,4 @@
 .contacts {
-    position: absolute;
     width: 100%;
 }
 
@@ -32,6 +31,9 @@
     filter: brightness(0.6);
     z-index: 3;
     width: 75%;
+    position: absolute;
+    left: 0;
+    right: 0;
     margin: auto;
 }
 
