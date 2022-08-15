@@ -135,6 +135,8 @@ html {
     padding-left: 25px;
     position: relative;
     cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .language-name:hover {
