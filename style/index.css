@@ -111,6 +111,63 @@ html {
     cursor: pointer;
 }
 
+.languages-dropdown {
+    display: none;
+    background: rgba(0,0,0,.5);
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    /* opacity: 0; */
+    padding-bottom: 6px;
+    position: absolute;
+    text-align: left;
+    transition: .3s;
+    transform: translateY(0);
+    /* visibility: hidden; */
+    width: 110px;
+    top: 9vh;
+    font-family: Rajdhani-Light;
+}
+
+.language-name {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    padding-left: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.language-name:hover {
+    color: #1bb;
+}
+
+.language-name:after {
+    background: linear-gradient(to right,#1bb 0,#6af 100%);
+    bottom: -4px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 5%;
+    position: absolute;
+    transform: scale(0,1);
+    transform-origin: right top;
+    transition: transform .3s;
+    width: 90%;
+}
+
+.language-name:hover:after {
+    transform: scale(1,1);
+}
+
+.fa-globe:hover {
+    color: #00d1ff;
+}
+
+.language:hover .languages-dropdown {
+    display: flex;
+    opacity: 1;
+}
+
 .anchors {
     height: 100%;
     display: flex;
@@ -124,7 +181,7 @@ html {
     justify-content: center;
 }
 
-.anchors a {
+.anchors a:not(.language-name) {
     text-decoration: none;
     height: 46%;
     display: flex;
@@ -140,7 +197,7 @@ html {
 .fa-globe {
     padding: 1vh;
     margin-right: 2vh;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-radius: 1.5vh;
 }
 
@@ -148,7 +205,7 @@ a.tungsten-font.menu-name {
     font-size: 2rem;
 }
 
-.anchors:not(.logo) a:hover, .fa-globe:hover {
+.anchors:not(.logo) a:not(.language-name):hover, .fa-globe:hover {
     background-color: rgba(255, 255, 255, 0.11);
 }
 
@@ -172,7 +229,7 @@ a.tungsten-font.menu-name {
     visibility: visible;
 }
 
-.downloader a {
+.downloader a:not(.language-name) {
     white-space: nowrap;
     /*background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);*/
     background: linear-gradient(to right,#1bb 0,#6af 100%);
