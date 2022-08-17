@@ -76,6 +76,13 @@ html {
     transition: background-color 200ms linear;
 }
 
+@media only screen and (max-width: 1225px) {
+    #menu {
+        background: #111;
+        border-bottom: 2px solid rgba(51,51,51,.25);
+    }
+}
+
 .fixed {
     background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgba(17,17,17,0.7749474789915967) 15%, rgba(0,212,255,0) 100%);
 }
@@ -95,9 +102,50 @@ html {
     max-width: 630px;
 }
 
+.show-menu {
+    text-decoration: none;
+    color: #fff;
+    padding: 1%;
+    display: none;
+    width: fit-content;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 4%;
+    align-items: center;
+}
+
+#menu input[type=checkbox]{
+    display: none;
+}
+
+#menu input[type=checkbox]:checked ~ ul{
+    display: block;
+}
+
 @media only screen and (max-width: 1225px) {
     #menu ul {
+        position: absolute;
+        top: 9vh;
         display: none;
+        height: fit-content;
+        background: linear-gradient(to bottom,#1bb 0,#6af 100%);
+        width: 100%;
+        max-width: 1225px;
+        padding-bottom: 4%;
+        overflow: hidden;
+        margin: 0;
+    }
+    /*Create vertical spacing*/
+    .anchors {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    .anchors a {
+        width: 100%;
+    }
+
+    .show-menu {
+        display: flex;
     }
 }
 
@@ -129,6 +177,23 @@ html {
     font-family: Rajdhani-Light;
 }
 
+@media only screen and (max-width: 1225px) {
+    .languages-dropdown {
+        display: flex;
+        background: none;
+        flex-direction: column;
+        height: auto;
+        margin: 2% 0 0 0;
+        opacity: 1;
+        padding: 6px 0;
+        position: inherit;
+        visibility: visible;
+        width: 100%;
+        font-family: Rajdhani-Light;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
 .language-name {
     font-size: 1.1rem;
     margin-top: 8px;
@@ -139,8 +204,20 @@ html {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 1225px) {
+    .language-name {
+        font-size: 1.2rem;
+    }
+}
+
 .language-name:hover {
     color: #1bb;
+}
+
+@media only screen and (max-width: 1225px) {
+    .language-name:hover {
+        color: #FFF;
+    }
 }
 
 .language-name:after {
@@ -178,6 +255,12 @@ html {
     color: #FFF;
 }
 
+@media only screen and (max-width: 1225px) {
+    .anchors:not(.logo) {
+        height: fit-content;
+    }
+}
+
 .logo.anchors {
     display: flex;
     justify-content: center;
@@ -196,11 +279,25 @@ html {
     font-size: 135%;
 }
 
+@media only screen and (max-width: 1225px) {
+    .anchors a:not(.language-name) {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-radius: 0;
+        margin-top: 5%;
+    }
+}
+
 .fa-globe {
     padding: 1vh;
     margin-right: 2vh;
     font-size: 1.2rem;
     border-radius: 1.5vh;
+}
+
+@media only screen and (max-width: 1225px) {
+    .fa-globe {
+        display: none;
+    }
 }
 
 a.tungsten-font.menu-name {
@@ -209,6 +306,12 @@ a.tungsten-font.menu-name {
 
 .anchors:not(.logo) a:not(.language-name):hover, .fa-globe:hover {
     background-color: rgba(255, 255, 255, 0.11);
+}
+
+@media only screen and (max-width: 1225px) {
+    .anchors:not(.logo) a:not(.language-name):hover, .fa-globe:hover {
+        background-color: rgba(255, 255, 255, 0);
+    }
 }
 
 .active {
@@ -227,17 +330,36 @@ a.tungsten-font.menu-name {
     visibility: hidden;
 }
 
+@media only screen and (max-width: 1225px) {
+    .line-hover {
+        display: none;
+    }
+}
+
 .show {
     visibility: visible;
 }
 
 .downloader a:not(.language-name) {
     white-space: nowrap;
-    /*background: linear-gradient(135deg, rgb(255, 51, 66) 0%, rgb(255, 48, 64) 0.01%, rgb(255, 125, 102) 100%);*/
     background: linear-gradient(to right,#1bb 0,#6af 100%);
     padding: 1vh 2vh;
     border-radius: 1.5vh;
     color: #111;
+}
+
+@media only screen and (max-width: 1225px) {
+    .downloader a:not(.language-name) {
+        background: none;
+        padding: 0;
+        color: #FFF;
+        border-radius: 0;
+    }
+
+    li.downloader.anchors {
+        margin-top: 2%;
+        align-items: flex-start!important;
+    }
 }
 
 .left-line {
