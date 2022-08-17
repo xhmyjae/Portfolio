@@ -171,11 +171,15 @@
     height: 12rem;
     width: 12rem;
     margin: 2rem 4rem 1rem 4rem;
+    border-radius: 50%;
+    border: thick solid #ece8e1;
 }
 
 @media only screen and (max-width: 1225px) {
     .introduction-image img {
         margin: 5% 0 0 0;
+        height: 11rem;
+        width: 11rem;
     }
 
     .introduction-image {
